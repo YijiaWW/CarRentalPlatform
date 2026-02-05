@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Customer_Web_Api\Customer_Web_Api.csproj" />
+    <ProjectReference Include="..\WebService\Customer_Web_Api\Customer_Web_Api.csproj" />
   </ItemGroup>
 
 </Project>

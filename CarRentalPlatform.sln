@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{2FD820A3-085D-4960-B74B-137BF637D874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer_Web_Api", "Customer_Web_Api\Customer_Web_Api.csproj", "{8809CE29-728B-49AD-93E0-D473D6F22FDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer_Web_Api", "WebService\Customer_Web_Api\Customer_Web_Api.csproj", "{8809CE29-728B-49AD-93E0-D473D6F22FDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{6FEEFB2C-F241-4B25-BB0C-98ACB0387DDA}"
 EndProject

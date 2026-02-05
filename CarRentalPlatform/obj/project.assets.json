@@ -7771,8 +7771,8 @@
     },
     "Customer_Web_Api/1.0.0": {
       "type": "project",
-      "path": "../Customer_Web_Api/Customer_Web_Api.csproj",
-      "msbuildProject": "../Customer_Web_Api/Customer_Web_Api.csproj"
+      "path": "../WebService/Customer_Web_Api/Customer_Web_Api.csproj",
+      "msbuildProject": "../WebService/Customer_Web_Api/Customer_Web_Api.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7818,8 +7818,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\conestoga college\\github\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj": {
-              "projectPath": "D:\\conestoga college\\github\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj"
+            "D:\\conestoga college\\github\\CarRentalPlatform\\WebService\\Customer_Web_Api\\Customer_Web_Api.csproj": {
+              "projectPath": "D:\\conestoga college\\github\\CarRentalPlatform\\WebService\\Customer_Web_Api\\Customer_Web_Api.csproj"
             }
           }
         }
