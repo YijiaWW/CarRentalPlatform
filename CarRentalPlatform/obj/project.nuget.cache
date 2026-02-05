@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z+usYkt3wJQ=",
+  "dgSpecHash": "uvUFxrhCjfg=",
   "success": true,
-  "projectFilePath": "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\CarRentalPlatform.csproj",
+  "projectFilePath": "D:\\conestoga college\\github\\CarRentalPlatform\\CarRentalPlatform\\CarRentalPlatform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micke\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\micke\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -7793,11 +7793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\CarRentalPlatform.csproj",
+      "projectUniqueName": "D:\\conestoga college\\github\\CarRentalPlatform\\CarRentalPlatform\\CarRentalPlatform.csproj",
       "projectName": "CarRentalPlatform",
-      "projectPath": "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\CarRentalPlatform.csproj",
+      "projectPath": "D:\\conestoga college\\github\\CarRentalPlatform\\CarRentalPlatform\\CarRentalPlatform.csproj",
       "packagesPath": "C:\\Users\\micke\\.nuget\\packages\\",
-      "outputPath": "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\CarRentalPlatform\\obj\\",
+      "outputPath": "D:\\conestoga college\\github\\CarRentalPlatform\\CarRentalPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7818,8 +7818,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj": {
-              "projectPath": "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj"
+            "D:\\conestoga college\\github\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj": {
+              "projectPath": "D:\\conestoga college\\github\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj"
             }
           }
         }

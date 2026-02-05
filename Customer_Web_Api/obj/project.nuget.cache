@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yXucMWOKYes=",
+  "dgSpecHash": "JJ7+d/6jZ1A=",
   "success": true,
-  "projectFilePath": "D:\\conestoga college\\Term6\\Programming Distributed Applications Development\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj",
+  "projectFilePath": "D:\\conestoga college\\github\\CarRentalPlatform\\Customer_Web_Api\\Customer_Web_Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micke\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\micke\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
