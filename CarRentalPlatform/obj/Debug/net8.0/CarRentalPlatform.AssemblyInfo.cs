@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarRentalPlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68e96ddffd677b825298be6b48403651b75e41d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6d43fef2b7dfe8abe083829cfd64c92ce1bb7c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarRentalPlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarRentalPlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
