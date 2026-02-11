@@ -528,3 +528,4 @@ D:\conestoga college\github\CarRentalPlatform\CarRentalPlatform\bin\Debug\net8.0
 D:\conestoga college\github\CarRentalPlatform\CarRentalPlatform\bin\Debug\net8.0\Customer_Web_Api.exe
 D:\conestoga college\github\CarRentalPlatform\CarRentalPlatform\bin\Debug\net8.0\Customer_Web_Api.dll
 D:\conestoga college\github\CarRentalPlatform\CarRentalPlatform\bin\Debug\net8.0\Customer_Web_Api.pdb
+D:\conestoga college\github\CarRentalPlatform\CarRentalPlatform\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

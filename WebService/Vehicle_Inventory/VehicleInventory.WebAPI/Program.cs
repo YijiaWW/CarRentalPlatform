@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 // Database
 builder.Services.AddDbContext<InventoryDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("InventoryConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleInventoryDb")));
 
 // Dependency Injection
 builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
