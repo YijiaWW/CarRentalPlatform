@@ -12,7 +12,7 @@ namespace VehicleInventory.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(YWInventoryDbContext))]
     [Migration("20260211210825_InitialCreate")]
-    partial class InitialCreate
+    partial class YWInitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
