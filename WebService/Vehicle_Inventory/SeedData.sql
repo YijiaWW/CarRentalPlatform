@@ -1,7 +1,7 @@
-USE [VehicleInventoryDb];
+USE [YW_VehicleInventoryDb];
 GO
 
-INSERT INTO [Vehicles] ([VehicleCode], [LocationId], [VehicleType], [Status])
+INSERT INTO [YW_Vehicles] ([VehicleCode], [LocationId], [VehicleType], [Status])
 VALUES 
 ('CAR-001', 101, 'Compact Sedan', 'Available'),
 ('CAR-002', 101, 'Midsize SUV', 'Rented'),

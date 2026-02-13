@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using VehicleInventory.Domain.Entities;
-using VehicleInventory.Domain.Enums;
 
 namespace VehicleInventory.Infrastructure.Data
 {
@@ -9,12 +8,14 @@ namespace VehicleInventory.Infrastructure.Data
         public InventoryDbContext(DbContextOptions<InventoryDbContext> options) : base(options) { }
 
         public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<Location> Locations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             
             modelBuilder.Entity<Vehicle>(entity => {
+                entity.ToTable("YW_Vehicles");
                 entity.HasKey(e => e.Id);
                 
                 entity.Property(e => e.VehicleCode)
@@ -31,6 +32,20 @@ namespace VehicleInventory.Infrastructure.Data
                 entity.Property(e => e.Status)
                       .HasConversion<string>() // Store Enum as String in DB
                       .IsRequired();
+            });
+
+            modelBuilder.Entity<Location>(entity =>
+            {
+                entity.ToTable("YW_Locations");
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.LocationCode)
+                    .IsRequired()
+                    .HasMaxLength(20);
+
+                entity.Property(e => e.LocationName)
+                    .IsRequired()
+                    .HasMaxLength(100);
             });
         }
     }
