@@ -10,16 +10,16 @@ using VehicleInventory.Domain.Exceptions;
 
 namespace VehicleInventory.Application.Services
 {
-    public class VehicleService : IVehicleService
+    public class YWVehicleService : IVehicleService
     {
         private readonly IVehicleRepository _repository;
 
-        public VehicleService(IVehicleRepository repository)
+        public YWVehicleService(IVehicleRepository repository)
         {
             _repository = repository;
         }
 
-        public async Task<VehicleDto> CreateVehicleAsync(CreateVehicleDto createDto)
+        public async Task<YWVehicleDto> CreateVehicleAsync(YWCreateVehicleDto createDto)
         {
             // Application validation (Project requirement: "Validation rules related to use cases")
             if (createDto == null) throw new ArgumentNullException(nameof(createDto));
@@ -32,14 +32,14 @@ namespace VehicleInventory.Application.Services
             return MapToDto(vehicle);
         }
 
-        public async Task<VehicleDto?> GetVehicleByIdAsync(int id)
+        public async Task<YWVehicleDto?> GetVehicleByIdAsync(int id)
         {
             var vehicle = await _repository.GetByIdAsync(id);
             if (vehicle == null) return null;
             return MapToDto(vehicle);
         }
 
-        public async Task<IEnumerable<VehicleDto>> GetAllVehiclesAsync()
+        public async Task<IEnumerable<YWVehicleDto>> GetAllVehiclesAsync()
         {
             var vehicles = await _repository.GetAllAsync();
             return vehicles.Select(MapToDto);
@@ -86,9 +86,9 @@ namespace VehicleInventory.Application.Services
             return true;
         }
 
-        private static VehicleDto MapToDto(Vehicle vehicle)
+        private static YWVehicleDto MapToDto(Vehicle vehicle)
         {
-            return new VehicleDto
+            return new YWVehicleDto
             {
                 Id = vehicle.Id,
                 VehicleCode = vehicle.VehicleCode,

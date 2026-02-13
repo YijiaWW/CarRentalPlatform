@@ -10,7 +10,7 @@ using VehicleInventory.Infrastructure.Data;
 
 namespace VehicleInventory.Infrastructure.Data.Migrations
 {
-    [DbContext(typeof(InventoryDbContext))]
+    [DbContext(typeof(YWInventoryDbContext))]
     [Migration("20260211210825_InitialCreate")]
     partial class InitialCreate
     {

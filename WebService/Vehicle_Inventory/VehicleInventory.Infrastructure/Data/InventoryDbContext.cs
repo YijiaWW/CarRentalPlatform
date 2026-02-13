@@ -3,9 +3,9 @@ using VehicleInventory.Domain.Entities;
 
 namespace VehicleInventory.Infrastructure.Data
 {
-    public class InventoryDbContext : DbContext
+    public class YWInventoryDbContext : DbContext
     {
-        public InventoryDbContext(DbContextOptions<InventoryDbContext> options) : base(options) { }
+        public YWInventoryDbContext(DbContextOptions<YWInventoryDbContext> options) : base(options) { }
 
         public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<Location> Locations { get; set; }

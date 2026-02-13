@@ -8,11 +8,11 @@ namespace VehicleInventory.WebAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class VehiclesController : ControllerBase
+    public class YWVehiclesController : ControllerBase
     {
         private readonly IVehicleService _vehicleService;
 
-        public VehiclesController(IVehicleService vehicleService)
+        public YWVehiclesController(IVehicleService vehicleService)
         {
             _vehicleService = vehicleService;
         }
@@ -33,7 +33,7 @@ namespace VehicleInventory.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(CreateVehicleDto createDto)
+        public async Task<IActionResult> Create(YWCreateVehicleDto createDto)
         {
             try
             {
@@ -44,7 +44,7 @@ namespace VehicleInventory.WebAPI.Controllers
             {
                 return BadRequest(new { message = ex.Message });
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 return StatusCode(500, new { message = "An error occurred while creating the vehicle." });
             }

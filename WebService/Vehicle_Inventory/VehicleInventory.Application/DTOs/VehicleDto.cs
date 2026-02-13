@@ -1,6 +1,6 @@
 namespace VehicleInventory.Application.DTOs
 {
-    public class VehicleDto
+    public class YWVehicleDto
     {
         public int Id { get; set; }
         public string VehicleCode { get; set; } = string.Empty;

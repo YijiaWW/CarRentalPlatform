@@ -6,9 +6,9 @@ namespace VehicleInventory.Application.Services
 {
     public interface IVehicleService
     {
-        Task<VehicleDto> CreateVehicleAsync(CreateVehicleDto createDto);
-        Task<VehicleDto?> GetVehicleByIdAsync(int id);
-        Task<IEnumerable<VehicleDto>> GetAllVehiclesAsync();
+        Task<YWVehicleDto> CreateVehicleAsync(YWCreateVehicleDto createDto);
+        Task<YWVehicleDto?> GetVehicleByIdAsync(int id);
+        Task<IEnumerable<YWVehicleDto>> GetAllVehiclesAsync();
         Task<bool> UpdateVehicleStatusAsync(int id, string status);
         Task<bool> DeleteVehicleAsync(int id);
     }

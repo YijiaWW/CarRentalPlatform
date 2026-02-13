@@ -14,12 +14,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Database
-builder.Services.AddDbContext<InventoryDbContext>(options =>
+builder.Services.AddDbContext<YWInventoryDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("YW_VehicleInventoryDb")));
 
 // Dependency Injection
-builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
-builder.Services.AddScoped<IVehicleService, VehicleService>();
+builder.Services.AddScoped<IVehicleRepository, YWVehicleRepository>();
+builder.Services.AddScoped<IVehicleService, YWVehicleService>();
 
 var app = builder.Build();
 

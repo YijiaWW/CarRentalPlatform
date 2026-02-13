@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace VehicleInventory.Application.DTOs
 {
-    public class CreateVehicleDto
+    public class YWCreateVehicleDto
     {
         [Required]
         public string VehicleCode { get; set; } = string.Empty;

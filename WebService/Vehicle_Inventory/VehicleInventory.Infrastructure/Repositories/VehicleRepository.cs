@@ -7,11 +7,11 @@ using VehicleInventory.Infrastructure.Data;
 
 namespace VehicleInventory.Infrastructure.Repositories
 {
-    public class VehicleRepository : IVehicleRepository
+    public class YWVehicleRepository : IVehicleRepository
     {
-        private readonly InventoryDbContext _context;
+        private readonly YWInventoryDbContext _context;
 
-        public VehicleRepository(InventoryDbContext context)
+        public YWVehicleRepository(YWInventoryDbContext context)
         {
             _context = context;
         }

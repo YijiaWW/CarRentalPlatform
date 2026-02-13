@@ -9,7 +9,7 @@ using VehicleInventory.Infrastructure.Data;
 
 namespace VehicleInventory.Infrastructure.Data.Migrations
 {
-    [DbContext(typeof(InventoryDbContext))]
+    [DbContext(typeof(YWInventoryDbContext))]
     partial class InventoryDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
