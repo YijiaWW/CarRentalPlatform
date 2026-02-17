@@ -70,7 +70,7 @@ The `Vehicle` entity serves as the aggregate root and enforces the following inv
     dotnet run --project VehicleInventory.WebAPI
     ```
 5.  **Access Swagger UI:**
-    Open your browser to `https://localhost:5001/swagger` (or the port indicated in the terminal).
+    Open your browser to `https://localhost:5014/swagger` (or the port indicated in the terminal).
 
 ## Known Limitations
 
